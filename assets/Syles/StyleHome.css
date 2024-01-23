@@ -1,0 +1,23 @@
+body{
+    background-color: #dfd4ec;
+}
+
+.Logo{
+    height: 70px;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 100px;
+    background-color: #dec9f6;
+    margin: 10px;
+}
+
+.portafolioHome{
+    font-size: 20px;
+}
+
+.KinalHome{
+    font-size: 20px;
+}
