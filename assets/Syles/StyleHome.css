@@ -141,6 +141,12 @@ nav{
     height: 20px;
 }
 
+.Icons2{
+    height: 40px;
+    padding: 0;
+    margin: 7px;
+}
+
 footer{
     background-color: #bb4f62;
     display: flex;
