@@ -28,12 +28,43 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
     background-color: #5fe6ba;
-    display: block;
+    display: flexbox;
     align-content: space-evenly;
+   /* flex-wrap: wrap;*/
     width: 70vh;
-    height: 65vh;
+    height: 45vh;
     border-radius: 8px;
     padding: 10px;
+}
+
+.Contenedor2{
+    margin: 10px;
+    background-color: #5fe6ba;
+    display: flexbox;
+    justify-content: flex-end;
+    width: 70vh;
+    height: 45vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.Contenedor3{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flexbox;
+    justify-content: flex-end;
+    text-align: center;
+    background-color: #5fe6ba;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    height: 45vh;
+    width: 75vh;
+}
+
+.seccion1{
+    display: flex;
 }
 
 .navigation{
