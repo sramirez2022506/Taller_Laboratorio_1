@@ -64,6 +64,44 @@ nav{
 
 }
 
+.ContenedorDetalles2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 8px;
+    margin: 10px;
+}
+
+.ContenedorDetalles2 p{
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+    background-color: #bb4f62;
+    height: 10vh;
+    padding: 20px;
+    width: 45%;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+
+.ContenedorDetalles3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 8px;
+    margin: 10px;
+}
+
+.ContenedorDetalles3 p{
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+    background-color: #bb4f62;
+    height: 20vh;
+    padding: 20px;
+    width: 10%;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+
 .InfografiaImg{
     height: 30vh;
     border-radius: 30px;
@@ -84,18 +122,30 @@ nav{
 .LinksGit{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    justify-content: left;
+    text-decoration: none;
     list-style: none;
     margin: 15px;
     padding: 5px;
 }
 
 .LinksGit a{
-    text-decoration: none;
     margin: 10px;
     padding: 10px;
     border-top: 1px;
 }
 
 .LinksGit a :hover{
-    background: white;
+    background: black;
+}
+
+.icons{
+    height: 7vh;
+    border-radius: 40px;
+    align-items: center;
+}
+
+.icons2{
+    height: 20vh;
+    border-radius: 10px;
 }
