@@ -133,7 +133,8 @@ nav{
 }
 
 .LolImg{
-    height: 30vh;
+    height: 20vh;
+    width: 50%;
     
 }
 
@@ -145,6 +146,7 @@ nav{
     height: 40px;
     padding: 0;
     margin: 7px;
+    
 }
 
 footer{
