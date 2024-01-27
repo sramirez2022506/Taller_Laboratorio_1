@@ -1,5 +1,6 @@
 body{
-    background-image: url(/assets/Images/KinalBack2.jpg);
+    /*background-image: url(/assets/Images/KinalBack2.jpg);*/
+    background-color: #2f477a;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -18,10 +19,13 @@ nav{
 
 .Contenedor1{
     background-color: white;
-    height: 100vh;
+    height: 80vh;
     width: 96%;
     padding: 10px;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   /* display: flex;
+    justify-content: center;*/
 }
 
 .Cabeza{
@@ -33,3 +37,58 @@ nav{
     height: 10vh;
     margin: 30px;
 }
+
+.ImgContenedor1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    margin: 3vh;
+    border-radius: 20px;
+}
+
+.ImgContenedor2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    margin: 3vh;
+    border-radius: 20px;
+}
+
+.ImgContenedor3{
+    display: flex;
+    justify-content: space-evenly;
+    height: 25vh;
+    margin: 3vh;
+    border-radius: 20px;
+}
+
+.ImgContenedor1 p{
+    font-size: 35px;
+}
+
+
+.TituloCon1{
+    text-align: center;
+}
+
+.ContenedorC2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ContenedorC2 p{
+    font-size: 30px;
+}
+
+.ImgBi{
+    border-radius: 10px;
+    height: 15vh;
+}
+
+footer{
+    background-color: #16233f;
+    height: 20vh;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
