@@ -85,10 +85,17 @@ nav{
     height: 15vh;
 }
 
+.navigation2{
+    font-size: 20px;
+}
+
 footer{
     background-color: #16233f;
     height: 20vh;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
 }
+
 
