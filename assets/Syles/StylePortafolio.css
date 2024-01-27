@@ -1,0 +1,151 @@
+body{
+    background-color: #d57282;
+}
+
+.Titulo{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+nav{
+    height: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bb4f62;
+    margin: 20px;
+}
+
+.navigation{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    list-style: none;
+    margin: 15px;
+    padding: 5px;
+}
+
+.navigation a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.navigation a :hover{
+    background: #dfd4ec;
+}
+
+.Contenedor1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ContenedorDetalles1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 8px;
+    margin: 10px;
+}
+
+.ContenedorDetalles1 p{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: #bb4f62;
+    height: 40vh;
+    width: 95%;
+    padding-top: 10px;
+    border-radius: 8px;
+
+}
+
+.ContenedorDetalles2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 8px;
+    margin: 10px;
+}
+
+.ContenedorDetalles2 p{
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+    background-color: #bb4f62;
+    height: 10vh;
+    padding: 20px;
+    width: 45%;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+
+.ContenedorDetalles3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 8px;
+    margin: 10px;
+}
+
+.ContenedorDetalles3 p{
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+    background-color: #bb4f62;
+    height: 20vh;
+    padding: 20px;
+    width: 10%;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+
+.InfografiaImg{
+    height: 30vh;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.ImgLenguajes{
+    height: 20vh;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.LinksGit{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    list-style: none;
+    margin: 15px;
+    padding: 5px;
+}
+
+.LinksGit a{
+    margin: 10px;
+    padding: 10px;
+    border-top: 1px;
+}
+
+.LinksGit a :hover{
+    background: black;
+}
+
+.icons{
+    height: 7vh;
+    border-radius: 40px;
+    align-items: center;
+}
+
+.icons2{
+    height: 20vh;
+    border-radius: 10px;
+}
